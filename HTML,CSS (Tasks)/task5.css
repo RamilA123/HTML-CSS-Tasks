@@ -1,0 +1,42 @@
+body{
+    background-color: whitesmoke;
+}
+
+.content{
+    margin-left: 800px;
+    margin-top: 150px;
+}
+
+.login span{
+    font-size: 27px;
+    font-family: system-ui;
+    margin-left: 88px;
+}
+
+.login input{
+    width: 360px;
+    height: 47px;
+    font-size: 15px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.login button{
+    width: 367px;
+    height: 44px;
+    color: white;
+    background-color: royalblue;
+    font-size: 17px;
+    font-family: system-ui;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.login a{
+    color: royalblue;
+    font-size: 15px;
+    font-family: system-ui;
+    filter: brightness(1.1);
+}

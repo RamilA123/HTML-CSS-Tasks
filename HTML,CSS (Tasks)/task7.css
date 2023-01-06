@@ -1,0 +1,214 @@
+body{
+    background-color: #252c28;
+    font-family: sans-serif;
+    margin-left: 475px;
+    margin-top: 35px;
+}
+
+.title{
+    background-image: url('images/globe.png');
+    background-repeat: no-repeat;
+    background-size: 995px 260px;
+    width: 996px;
+    height: 255px;
+    border: 1px solid gray;
+    color: white;
+}
+
+.title h2{
+    margin-left: 105px;
+    margin-top: 61px;
+    margin-bottom: 9px;
+    font-size: 33px;
+}
+
+.title span{
+    margin-left: 104px;
+    font-size: 18px;
+}
+
+#header{
+    background-color: #3a4147;
+    width: 1000px;
+    height: 48px;
+    opacity: 0.8;
+}
+
+#header ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    padding-left: 31px;
+    padding-right: 75px;
+    padding-top: 15px;
+    margin-top: 9px;
+}
+
+#header ol .home{
+    border-right: 1px groove silver;
+}
+
+#header ol .contact{
+    border-right: 1px groove silver;
+}
+
+#header ol .new-page-1{
+    border-right: 1px groove silver;
+}
+
+#header ol .new-page-2{
+    border-right: 1px groove silver;
+}
+#header ol .new-page-3{
+    border-right: 1px groove silver;
+}
+
+#header ol li{
+    padding-right: 35px;
+}
+
+#header ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+#body{
+    display: flex;
+}
+
+#body .left-side{
+    color: silver;
+}
+
+#body .menu h3{
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+#body .menu ul{
+    font-size: 15px;
+}
+
+#body .menu ul li{
+    padding-top: 7px;
+}
+
+#body .menu ul li a{
+    color: darkgray;
+}
+
+#body .block h3{
+    margin-left: 35px;
+    font-size: 22px;
+}
+
+#body .block p{
+    margin-left: 30px;
+    width: 213px;
+    font-size: 15px;
+    color: darkgray;
+}
+#body .right-side{
+    color: silver;
+    margin-left: 55px;
+}
+
+#body .gallery{
+    width: 685px;
+}
+
+#body .gallery h3{
+    font-size: 22px;
+}
+
+#body .gallery hr{
+    border-color: darkgray;
+}
+
+#body .gallery p{
+    font-size: 15px;
+    color: darkgray;
+}
+
+#body .bottom-side{
+    display: flex;
+}
+
+#body .subscription{
+    border-right: 2px solid dimgray;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+#body .subscription h3{
+    font-size: 22px;
+}
+
+#body .subscription p{
+    font-size: 15px;
+    color: darkgray;
+}
+
+#body .subscription button{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    opacity: 0.7;
+    width: 95px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+#body .subscription button a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+#body .other-services{
+    margin-top: 10px;
+    margin-right: 440px;
+    padding-left: 35px;
+}
+
+#body .other-services h3{
+    font-size: 22px;
+}
+
+#body .other-services p{
+    font-size: 15px;
+    color: darkgray;
+}
+
+#body .other-services button{
+    background-color: whitesmoke;
+    border-color: whitesmoke;
+    opacity: 0.7;
+    width: 95px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+#body .other-services button a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+#footer hr{
+    width: 1000px;
+    margin-right: 610px;
+    margin-top: 38px;
+    border-color: darkgray;
+    border-width: 2px;
+    opacity: 0.3;
+}
+
+#footer p{
+    color: darkgray;
+    margin-left: 500px;
+    font-size: 14px;
+}
+

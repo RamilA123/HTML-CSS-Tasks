@@ -1,0 +1,28 @@
+
+body{
+    background-color: lightgrey;
+}
+
+.title h1{
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.list ul{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.list li:nth-child(2) a{
+    color: hotpink;
+}
+
+.paragraph p{
+    color: white;
+    background-color: hotpink;
+    font-size: 16px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    padding: 3px;
+}
